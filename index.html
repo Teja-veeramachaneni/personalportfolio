@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio - Teja Sri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+</head>
+<body>
+    <div id ="header">
+        <div class = "container">
+            <nav>
+                <img src="images/Teja.png" class = "logo"></img>
+                <ul>
+                    <li><a href = "#header"> Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#work-list">Work</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+
+                </ul>
+                
+            </nav>
+            <div class = "header-text">
+                <h1 >Hi, I'm <span class="auto-animation">Teja Sri</span></h1>
+                <a href = "">Contact Me</a>
+                <a href = "images/RESUME_Tejasri.pdf" download class = "btns">Download CV</a>
+            </div>
+            <div class = "background-image">
+                <img src = "images/background1.jpeg" class = "background-logo"></img>
+            </div>
+            
+        </div>
+        
+    </div>
+    <br><br>
+
+
+    <!-- about page -->
+   
+    <div class = "about-page-content">
+      <div class = "about">
+        <i><h3 class = "sub-title">About Me</h3></i>
+        <br><br>
+
+        <div id="light">
+            <div id="lineh1"></div><div id="lineh2"></div>
+            
+        </div>
+      </div>
+      <!--about pagee  --> 
+
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src = "images/user1.jpg">
+                </div>
+                <div class="about-col2">
+                     <p>I am a final year undergraduate student major in computer science.I firmly believe in life long learning and I'm constantly exploring new ideas and technologies </p>
+                     <div class="tab-titles">
+                        <p class = "tab-links active-link" onClick = "opentab('skills')">Skills</p>
+                        <p class = "tab-links" onClick = "opentab('experience')">Experience</p>
+                        <p class = "tab-links" onClick = "opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                          <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web development</span><br>Web app Development</li><br>
+                            <li><span>Python programming language</span></li><br>
+                            <li><span>Mysql and Mongodb database</span></li>
+                        </ul>
+                     </div>
+                     <div class = "tab-contents " id = "experience">
+                        <ul>
+                            <li><span>Feb 2022 - July 2022</span><br>Python developer intern at Icompaas</li>
+                            <li><span>Jan 2020-Jan 2021</span><br>Microsoft learn student ambassador</li>
+                        </ul>
+                     </div>
+                     <div class = "tab-contents" id = "education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>Gudlavalleru Engineering College</li>
+                            <li><span>2017-2019</span><br>Secondary higher education from Sri Chaitanya Junior College from Sri Chaitanya Junior College</li>
+                            <li><span>2016-2017</span><br>Siddhartha Vidyalaya</li>
+                        </ul>
+                     </div>
+
+                </div>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills -->
+    <div id = "portfolio">
+        <div class="container">
+            <h1 class = "title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class = "layer">
+                        <h3>Personal Portfolio website</h3>
+                        <p>Describes about my skills and interests.This portfolio shows all my skills and projects that I have done</p>
+                        <!-- <a href = "#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class = "work">
+                    <img src = "images/work-2.png">
+                    <div class = "layer">
+                        <h3>Personal Portfolio website</h3>
+                        <p>Describes about my skills and interests.This portfolio shows all my skills and projects that I have done</p>
+                        <!-- <a href = "#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class = "work">
+                    <img src = "images/work-3.png">
+                    <div class = "layer">
+                        <h3>Personal Portfolio website</h3>
+                        <p>Describes about my skills and interests.This portfolio shows all my skills and projects that I have done</p>
+                        <!-- <a href = "#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+
+                </div>
+
+            </div>
+            <a href = "#" class = "btn">See More</a>
+
+        </div>
+    </div>
+
+    <!-- Contact  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class = "sub-title-contact">Contact</h1>
+                    <p>tejaveeramachaneni15@gmail.com</p>
+                    <div class = "social-icons">
+                        <a href = "https://www.linkedin.com/in/tejasri-veeramachaneni-43a94a1b0/"  class = "fa fa-linkedin"></a>
+                        <a href="https://github.com/Teja-veeramachaneni" class = "fa fa-github"></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type = "text" name = "Name" placeholder="Your Name" required>
+                        <input type = "email" name = "email" placeholder="Your Email"required>
+                        <input type = "message" name = "message" placeholder="Enter your message" class = "message" required>
+                        <button type="submit" class = "btn btn2">Send</button>
+                    </form>
+                    <span id = "msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby21cfTQd0BkHwQhJjOBc6FnC42hhw-ShXbk98wIOS97YDn2l5P4_ENJqiWhD_zvTgDpw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function()
+                {
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
